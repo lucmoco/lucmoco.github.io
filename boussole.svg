@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+  shape-rendering="geometricPrecision"
+  text-rendering="geometricPrecision"
+  image-rendering="optimizeQuality"
+  fill-rule="evenodd"
+  clip-rule="evenodd"
+  viewBox="-100 -100 200 200"
+  height="400px"
+  width="400px"
+>
+  <defs>
+    <clipPath id="outercircle" clipPathUnits="userSpaceOnUse">
+      <ellipse ry="100" rx="100" cy="0" cx="0"/>
+    </clipPath>
+  </defs>
+  <g fill="black" clip-path="url(#outercircle)">
+    <path d="M0 0 V 100 H 19.89" transform='rotate(0)'/>
+    <path d="M0 0 V 100 H 19.89" transform='rotate(22.5)'/>
+    <path d="M0 0 V 100 H 19.89" transform='rotate(45)'/>
+    <path d="M0 0 V 100 H 19.89" transform='rotate(67.5)'/>
+    <path d="M0 0 V 100 H 19.89" transform='rotate(90)'/>
+    <path d="M0 0 V 100 H 19.89" transform='rotate(112.5)'/>
+    <path d="M0 0 V 100 H 19.89" transform='rotate(135)'/>
+    <path d="M0 0 V 100 H 19.89" transform='rotate(157.5)'/>
+    <path d="M0 0 V 100 H 19.89" transform='rotate(180)'/>
+    <path d="M0 0 V 100 H 19.89" transform='rotate(202.5)'/>
+    <path d="M0 0 V 100 H 19.89" transform='rotate(225)'/>
+    <path d="M0 0 V 100 H 19.89" transform='rotate(247.5)'/>
+    <path d="M0 0 V 100 H 19.89" transform='rotate(270)'/>
+    <path d="M0 0 V 100 H 19.89" transform='rotate(292.5)'/>
+    <path d="M0 0 V 100 H 19.89" transform='rotate(315)'/>
+    <path d="M0 0 V 100 H 19.89" transform='rotate(337.5)'/>
+  </g>
+  <ellipse ry="90" rx="90" cy="0" cx="0" fill="white"/>
+  <ellipse ry="99" rx="99" cy="0" cx="0" stroke="black" stroke-width="2" fill="none"/>
+  <ellipse ry="90" rx="90" cy="0" cx="0" stroke="black" stroke-width="2" fill="none"/>
+  <text x="-28" y="-20" fill="gray" style="font:80px sans-serif">N</text>
+  <path d="M15 0 L-15 0 L 0 -80 L15 0" fill="#c12828" />
+  <path d="M15 0 L 0 80 L-15 0 L 0 -80 L15 0" stroke="black" stroke-width="3" fill="none" />
+  <ellipse ry="15" rx="15" cy="0" cx="0" fill="black" stroke="black" stroke-width="3"/>
+</svg>
